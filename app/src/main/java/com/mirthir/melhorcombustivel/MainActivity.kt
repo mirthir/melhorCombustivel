@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var campoPrecoGasolina: EditText
+    private lateinit var campoPrecoGasolina: EditText
     lateinit var campoPrecoAlcool: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,11 +32,12 @@ class MainActivity : AppCompatActivity() {
             mostraResultado(combustivel)
         }
     }
+
     private fun mostraResultado(resultado: Combustivel) {
         val resultadoTextView = findViewById<TextView>(R.id.combustivelMaisVantajoso)
-        resultadoTextView.text = "O Combustível indicado é $resultado"
-
+        resultadoTextView.text = "O Combustível indicado é ${resultado.toString()}"
     }
+
     private fun calcularMelhorCombustivel(
         precoGasolina: Double,
         precoAlcool: Double) : Combustivel {
