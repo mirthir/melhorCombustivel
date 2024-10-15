@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">melhorCombustivel</string>
+    <string name="textview">TextView</string>
+    <string name="pre_o_da_gasolina">Preço da Gasolina</string>
+    <string name="button">Button</string>
+    <string name="combust_vel_mais_vantajoso">Combustível mais Vantajoso</string>
+    <string name="calcular">Calcular</string>
+    <string name="precoalcool">precoAlcool</string>
+    <string name="pre_o_do_lcool">Preço do Álcool</string>
+    <string name="pre_o_do_lcooll">Preço do Álcool</string>
+    <string name="pre_o_da_gasolinal">Preço da Gasolina</string>
+    <string name="lpre_o_da_gasolinal">Preço da Gasolina</string>
+    <string name="reais">Reais</string>
+    <string name="reaiss">Reais</string>
+    <string name="s">Reais</string>
+    <string name="calcularr">Calcular</string>
+    <string name="calcularç">Calcular</string>
+</resources>
